@@ -20,7 +20,7 @@ Pokedex.push("poliwag")
 Pokedex.push("psyduck")
 Pokedex.push("shellder")
 
-console.log("Pokedex inicial:", Pokedex)
+console.log("Pokedex push:", Pokedex)
 
 
 
