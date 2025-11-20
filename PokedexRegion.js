@@ -39,10 +39,6 @@ Pokedex.splice(9, 1)
 
 console.log("Pokedex splice:", Pokedex)
 
-try { Pokedex = [] } catch (e) { console.log("Prohibido con const:", e.message) }
-console.log("Pokedex tras tercera:", Pokedex)
-
-
 //cuarta
 
 
@@ -53,7 +49,7 @@ Lo que sí se puede hacer con const pokedex:
 - Quitar elementos con .splice() → Ejemplo: pokedex.splice(2, 1)
 - Cambiar elementos por índice → Ejemplo: pokedex[0] = "Eevee"
 
- Lo que NO se puede hacer con const pokedex:
+Lo que NO se puede hacer con const pokedex:
 - Reasignar el array completo → Ejemplo: pokedex = [] →  Esto da error
 
 */
