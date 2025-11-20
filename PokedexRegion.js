@@ -54,6 +54,6 @@ Lo que sí se puede hacer con const pokedex:
 - Cambiar elementos por índice → Ejemplo: pokedex[0] = "Eevee"
 
  Lo que NO se puede hacer con const pokedex:
-- Reasignar el array completo → Ejemplo: pokedex = [] → ❌ Esto da error
+- Reasignar el array completo → Ejemplo: pokedex = [] →  Esto da error
 
 */
